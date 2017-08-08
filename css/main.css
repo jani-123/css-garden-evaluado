@@ -1,0 +1,71 @@
+/* Agrega aquí tus estilos*/
+body{
+	height: 900px;
+  background: #D4E1DD;
+	border-radius: 5px;
+	border-top: 2px solid 5E93B;
+	border-right: 1px dotted #416D89;
+	border-left:1px dotted #416D89;
+}
+
+section{
+	background: #fff;
+}
+div.summary{
+	left: 100%;
+	top: 100%;
+  padding-left:  100px;
+  padding-right: 100px;
+  margin-left:   100px;
+  margin-right:  100px;
+  border: 2px solid black;
+	box-shadow: 10px 10px 5px #888888;/*sombra a la caja de texto*/
+}
+p{
+	text-transform: capitalize;
+	font-style: italic;
+
+}
+h1{
+     font-size: 200%;
+     font-style: italic;
+     text-align: center;
+     color: white;
+     align-content: center;
+     height: 90px;
+     background-color: #D82621;
+}
+h3{
+	position:relative;
+	 text-shadow: 2px 2px 8px #FF0000;
+}
+
+/*final de pagina */
+footer{
+   background-color: #504949  ;
+   height: 80px;
+   padding:5px 0px;
+   clear: both;
+   text-align: center;
+   text-decoration-style: wavy;
+}
+aside{
+    background: #F57F7C;
+}
+.wrapper{
+	 -webkit-column-count: 3;
+	 -webkit-column-gap: 50px;
+
+	 -webkit-column-rule-color: #ff0000;
+}
+
+.design-name{
+    color: white;
+}
+a{
+  color: blue;
+}
+.select{
+  font-style: italic;
+  color: white;
+}
